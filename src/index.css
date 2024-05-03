@@ -51,3 +51,43 @@ body {
   font-weight: 300;
   line-height: 16px;
 }
+
+.loader {
+  pointer-events: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  animation: an1 1s ease infinite;
+}
+
+@keyframes an1 {
+  0% {
+      transform: rotate(0turn);
+  }
+
+  100% {
+      transform: rotate(1turn);
+  }
+}
+
+.loader2 {
+  pointer-events: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  animation: an1 1s ease infinite;
+}
+
+@keyframes an1 {
+  0% {
+      transform: rotate(0turn);
+  }
+
+  100% {
+      transform: rotate(1turn);
+  }
+}
