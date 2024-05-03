@@ -12,6 +12,12 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #f7f7f7;
 }
+
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
+
 .content-table {
   width: 100%;
 }
